@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">s334886_Mappe2</string>
+
+
+        <string name="channel_name">Min Kanal</string>
+        <string name="channel_description">Min Beskrivelse</string>
+
+
+    <string name="time_picker_heading">Velg en tid</string>
+    <string name="select_time">Velg tid for SMS/notifikasjoner</string>
+
+
+</resources>

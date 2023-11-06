@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+   <SwitchPreference
+       android:key="switch_preference"
+       android:title="Start SMS service og notifikasjoner"
+       android:summary="Skru av eller på"
+       android:defaultValue="true">
+   </SwitchPreference>
+
+
+   <Preference
+       app:key="selected_time"
+       app:title="Selected Time"
+       app:summary="Select the time"
+       app:defaultValue="13:54"
+       app:useSimpleSummaryProvider="true" />
+
+
+   <EditTextPreference
+   android:key="message_key"
+   android:title="Default SMS Message"
+   android:summary="Set the default SMS message"
+   android:defaultValue="This is the default SMS message."
+   android:inputType="text" />
+
+</PreferenceScreen>
